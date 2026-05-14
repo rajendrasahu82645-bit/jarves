@@ -39,7 +39,7 @@ Before creating bug reports, please check [this list](#before-submitting-a-bug-r
 
 * Read the README and the documentation to check if you missed something.
 * Check if you can reproduce the problem in the latest version of Jarvis.
-* **Perform a quick search in [issues](https://github.com/sukeesh/Jarvis/issues)** to see if the bug has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
+* **Perform a quick search in [issues](https://github.com/rajendra/Jarvis/issues)** to see if the bug has already been reported. If it has **and the issue is still open**, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A Good Bug Report?
 
@@ -63,7 +63,7 @@ Before creating feature suggestions, please check [this list](#before-submitting
 
 * **Check if that feature already exists**
 * **Check if you have the latest version** of Jarvis
-* **Perform a [quick search](https://github.com/sukeesh/Jarvis/issues)** to see if the feature/enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
+* **Perform a [quick search](https://github.com/rajendra/Jarvis/issues)** to see if the feature/enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 
 #### How Do I Submit A Feature Suggestion?
 
