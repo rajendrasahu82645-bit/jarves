@@ -1,11 +1,9 @@
-VERSION:=1.0
+PYTHON ?= python3
 
-build_docker:
-	docker build -t jarvis:$(VERSION) .
+.PHONY: run test
 
-run_docker:
-	#Needs "xhost local:docker"
-	docker run -it --rm -e DISPLAY=${DISPLAY} -v /tmp/.X11-unix:/tmp/.X11-unix jarvis:$(VERSION)
+run:
+	$(PYTHON) main.py
 
-autopep8:
-	@find . -iname "*.py" -not -path "./env/**" | xargs autopep8 --in-place --aggressive --aggressive --max-line-length=140
+test:
+	$(PYTHON) -m unittest discover -s tests -v
